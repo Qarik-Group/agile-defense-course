@@ -1,0 +1,102 @@
+{
+    "director_id": "f428cd82-7f4d-4f54-4fe2-1e4ecf85ddb3",
+    "installation_id": "f0b5ef07-177e-46fd-71a5-5c41e1d74447",
+    "current_vm_cid": "vm-ea675a14-25fe-4310-5e3d-c47dc7e53bb3",
+    "current_stemcell_id": "4eba095d-3baf-4c22-546d-eeef86475886",
+    "current_disk_id": "00003042-d26b-41f3-718b-01a4cd127a4a",
+    "current_release_ids": [
+        "8f54017e-da57-4bb9-4605-e05d027c38ef",
+        "7a1b3e11-4869-4ad7-6ed8-397288f6e758",
+        "6fa5a101-74ec-4bce-6235-a7f726dd8dfa",
+        "979b4b1a-c7c9-4d95-571b-0d700af4afb6",
+        "0dd82f27-7ec7-4d15-5d29-b7bcaa057f2c",
+        "9f425a0e-5c68-42cb-47ac-9a78e3c65005",
+        "b1cc6a5c-8689-4d83-470b-670e76b6ca3a",
+        "8e3e8aa2-f962-438e-784c-8b6b2434c248",
+        "e31aa3cb-5de1-4575-4264-8ce9663fee17",
+        "4281af2f-c2a9-46b7-611f-5389346e76e3",
+        "0c9a8f28-9ac4-403d-4382-a5aaf134af90",
+        "66ee1e86-ad0c-47fd-5376-2b15142c3eca"
+    ],
+    "current_manifest_sha": "f0b05797f4fb89782e2b1f557dc085b3afa9cc75ee273dc30a3a6802a5cb85ec9e64b69fe1a4435678eecb04da5461d7914cf433176fc5eb36b341eaa9fdcbbe",
+    "disks": [
+        {
+            "id": "00003042-d26b-41f3-718b-01a4cd127a4a",
+            "cid": "disk-9e1a576d-da87-4f1c-6b45-612119898a39",
+            "size": 65536,
+            "cloud_properties": {
+                "type": "pd-standard"
+            }
+        }
+    ],
+    "stemcells": [
+        {
+            "id": "4eba095d-3baf-4c22-546d-eeef86475886",
+            "name": "bosh-google-kvm-ubuntu-xenial-go_agent",
+            "version": "97.12",
+            "cid": "stemcell-cd36cff1-4876-4df6-4dc4-3b8588438e45"
+        }
+    ],
+    "releases": [
+        {
+            "id": "8f54017e-da57-4bb9-4605-e05d027c38ef",
+            "name": "bosh",
+            "version": "268.0.1"
+        },
+        {
+            "id": "7a1b3e11-4869-4ad7-6ed8-397288f6e758",
+            "name": "bpm",
+            "version": "0.12.3"
+        },
+        {
+            "id": "6fa5a101-74ec-4bce-6235-a7f726dd8dfa",
+            "name": "bosh-google-cpi",
+            "version": "27.0.1"
+        },
+        {
+            "id": "979b4b1a-c7c9-4d95-571b-0d700af4afb6",
+            "name": "os-conf",
+            "version": "18"
+        },
+        {
+            "id": "0dd82f27-7ec7-4d15-5d29-b7bcaa057f2c",
+            "name": "uaa",
+            "version": "60.2"
+        },
+        {
+            "id": "9f425a0e-5c68-42cb-47ac-9a78e3c65005",
+            "name": "concourse",
+            "version": "4.2.1"
+        },
+        {
+            "id": "b1cc6a5c-8689-4d83-470b-670e76b6ca3a",
+            "name": "credhub",
+            "version": "2.0.2"
+        },
+        {
+            "id": "8e3e8aa2-f962-438e-784c-8b6b2434c248",
+            "name": "garden-runc",
+            "version": "1.16.4"
+        },
+        {
+            "id": "e31aa3cb-5de1-4575-4264-8ce9663fee17",
+            "name": "credhub-importer",
+            "version": "1.1.0"
+        },
+        {
+            "id": "4281af2f-c2a9-46b7-611f-5389346e76e3",
+            "name": "vault-credhub-proxy",
+            "version": "1"
+        },
+        {
+            "id": "0c9a8f28-9ac4-403d-4382-a5aaf134af90",
+            "name": "postgres",
+            "version": "30"
+        },
+        {
+            "id": "66ee1e86-ad0c-47fd-5376-2b15142c3eca",
+            "name": "bucc-bbr",
+            "version": "7"
+        }
+    ]
+}

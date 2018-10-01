@@ -1,0 +1,24 @@
+concourse_lb_ip: 35.194.90.241
+concourse_target_pool: ad-training-14-concourse
+director__concourse_domain: 35.194.90.241
+director__internal_ip: 10.0.0.6
+director__tags:
+- ad-training-14-bosh-director
+- ad-training-14-concourse-open
+- concourse
+director__target_pool: ad-training-14-concourse
+director_address: https://35.199.33.250:25555
+director_name: bosh-ad-training-14
+external_ip: 35.199.33.250
+internal_cidr: 10.0.0.0/16
+internal_gw: 10.0.0.1
+internal_tag_name: ad-training-14-internal
+jumpbox__internal_ip: 10.0.0.5
+jumpbox__tags:
+- ad-training-14-bosh-open
+- ad-training-14-jumpbox
+jumpbox_url: 35.199.33.250:22
+network: ad-training-14-network
+subnetwork: ad-training-14-subnet
+subnetwork_reserved_ips: 10.0.0.1-10.0.0.255
+subnetwork_static_ips: 10.0.255.0-10.0.255.254

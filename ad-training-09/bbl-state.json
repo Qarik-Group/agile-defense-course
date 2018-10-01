@@ -2,7 +2,7 @@
 	"version": 14,
 	"bblVersion": "6.10.3",
 	"iaas": "gcp",
-	"id": "6984f776-9234-4250-7723-2a76bd50cdcd",
+	"id": "bdee2667-c1ea-49fd-7ccb-40ae2a930c9b",
 	"envID": "ad-training-09",
 	"noDirector": false,
 	"aws": {},
