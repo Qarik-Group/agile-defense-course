@@ -1,5 +1,22 @@
-gcloud iam service-accounts create <service account name>
+#!/bin/bash
 
-gcloud iam service-accounts keys create --iam-account='<service account name>@<project id>.iam.gserviceaccount.com' <service account name>.key.json
+for a in 05 06 07 08 09 10 11; do
+  PROJECT=ad-training-${a}
+  mkdir ${PROJECT}
+  pushd ${PROJECT}
 
-gcloud projects add-iam-policy-binding <project id> --member='serviceAccount:<service account name>@<project id>.iam.gserviceaccount.com' --role='roles/editor'
+  echo 'export BBL_IAAS=gcp' > .envrc
+  echo "export BBL_ENV_NAME=${PROJECT}" >> .envrc
+  echo 'export BBL_GCP_SERVICE_ACCOUNT_KEY="../bosh.key.json"' >> .envrc
+  echo 'export BBL_GCP_REGION="us-east4"' >> .envrc
+
+  source .envrc
+
+  bbl plan -lb-type concourse
+
+  ln -s ../bucc/
+  ln -s bucc/bbl/*-director-override.sh .
+  cd terraform
+  ln -s ../bucc/bbl/terraform/$BBL_IAAS/* .
+  popd
+done

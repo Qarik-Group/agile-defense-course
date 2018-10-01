@@ -1,0 +1,28 @@
+{
+    "director_id": "c3ceea5e-2cf3-4cbd-6b0b-cf81346f2dd1",
+    "installation_id": "f51a2f49-222c-4dc6-6254-8754e853e936",
+    "current_vm_cid": "vm-347388b8-1768-42f6-7dd9-8df3880fe4f5",
+    "current_stemcell_id": "889dbf7a-c7fa-4896-57f3-7d0a36980d6b",
+    "current_disk_id": "7583579a-8fd3-4874-7d14-9500f8d0cf26",
+    "current_release_ids": [],
+    "current_manifest_sha": "",
+    "disks": [
+        {
+            "id": "7583579a-8fd3-4874-7d14-9500f8d0cf26",
+            "cid": "disk-f8784514-5cd8-459b-4258-a11204630521",
+            "size": 65536,
+            "cloud_properties": {
+                "type": "pd-standard"
+            }
+        }
+    ],
+    "stemcells": [
+        {
+            "id": "889dbf7a-c7fa-4896-57f3-7d0a36980d6b",
+            "name": "bosh-google-kvm-ubuntu-xenial-go_agent",
+            "version": "97.12",
+            "cid": "stemcell-8fb51667-13ac-44f4-767a-c6f6d523dc95"
+        }
+    ],
+    "releases": []
+}

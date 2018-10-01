@@ -1,0 +1,41 @@
+{
+	"version": 14,
+	"bblVersion": "6.10.3",
+	"iaas": "gcp",
+	"id": "eb6e734d-2b77-4908-55cd-96f6d0ba419a",
+	"envID": "ad-training-11",
+	"noDirector": false,
+	"aws": {},
+	"azure": {},
+	"gcp": {
+		"zone": "us-east4-a",
+		"region": "us-east4",
+		"zones": [
+			"us-east4-a",
+			"us-east4-b",
+			"us-east4-c"
+		]
+	},
+	"vsphere": {},
+	"openstack": {},
+	"jumpbox": {
+		"url": ""
+	},
+	"bosh": {
+		"directorName": "",
+		"directorUsername": "",
+		"directorPassword": "",
+		"directorAddress": "",
+		"directorSSLCA": "",
+		"directorSSLCertificate": "",
+		"directorSSLPrivateKey": ""
+	},
+	"tfState": "",
+	"lb": {
+		"type": "concourse",
+		"cert": "",
+		"key": "",
+		"chain": ""
+	},
+	"latestTFOutput": ""
+}
