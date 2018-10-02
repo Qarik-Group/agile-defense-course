@@ -1,24 +1,24 @@
 {
     "director_id": "c3ceea5e-2cf3-4cbd-6b0b-cf81346f2dd1",
     "installation_id": "f51a2f49-222c-4dc6-6254-8754e853e936",
-    "current_vm_cid": "vm-347388b8-1768-42f6-7dd9-8df3880fe4f5",
+    "current_vm_cid": "vm-332aab69-db7e-4c38-6c47-e532e223e257",
     "current_stemcell_id": "889dbf7a-c7fa-4896-57f3-7d0a36980d6b",
     "current_disk_id": "7583579a-8fd3-4874-7d14-9500f8d0cf26",
     "current_release_ids": [
-        "a11cdf05-2133-434d-56d2-814fdd5d19eb",
-        "3dd5c0c7-8311-4e9d-5068-1aba4d5cdb96",
-        "619a1eb7-febf-4340-7ed4-dcd996b0b1ed",
-        "604c0719-c80b-43fc-6d86-5aea891f22f3",
-        "67f6c398-a06e-4fad-6fd9-5b27f8a6cd33",
-        "f203600c-0a62-4c9a-54ce-51f7106123ed",
-        "11529fd4-bf4f-4d0e-748f-63a7bed2652f",
-        "5da90686-eb92-4a16-7326-79725dd232ba",
-        "36507ff7-f253-448b-701a-59d266c5639a",
-        "9e4f32dd-e948-4ef2-7a44-02434cd61704",
-        "3bbfe582-4ecb-400d-4ff6-a468c993e368",
-        "afb1fe93-a4c3-45d1-4c09-482197998d82"
+        "ef1abc1b-10b9-424d-5536-fa81f27a00f5",
+        "8529c1dc-567e-4070-6fb1-aa813ee34fb4",
+        "61bfb1df-f3d3-476f-4d22-976fa518771b",
+        "4ecd6c7c-4a24-420e-4b27-3b9b431e54b2",
+        "5b0b30be-8652-4782-4e6d-851968e8b9ac",
+        "09be084f-84e0-4ddb-699c-c8e2df51f41f",
+        "c5aa20a3-32b7-4960-7c97-d0bab9921066",
+        "73c4ae0b-efac-4f72-6a74-a81b45efa453",
+        "5de9115b-9810-4fdd-443c-563fbe2f71ba",
+        "281d96e5-e844-4309-4fe3-bb72cab5236b",
+        "8e399fb8-35c2-4996-5541-632d9d4a2e14",
+        "6b9686ea-b578-44f6-6893-a20f225680b2"
     ],
-    "current_manifest_sha": "c986e2518c07e7937c93dfc913477ff582a3150c7ea0b421b09f7fde5b3f588652414b03dd7beed69280dff9d8c775e343e63d84628b42d9a2bca7aeebfef414",
+    "current_manifest_sha": "dfc80d3be1369896562181e3ab478f305c4aaff05e2204176d9b63e644533da77ede99098195d73d77d47ecbae62eded5a47c043361d165cc269826cb16cb53c",
     "disks": [
         {
             "id": "7583579a-8fd3-4874-7d14-9500f8d0cf26",
@@ -39,62 +39,62 @@
     ],
     "releases": [
         {
-            "id": "a11cdf05-2133-434d-56d2-814fdd5d19eb",
+            "id": "ef1abc1b-10b9-424d-5536-fa81f27a00f5",
             "name": "bosh",
             "version": "268.0.1"
         },
         {
-            "id": "3dd5c0c7-8311-4e9d-5068-1aba4d5cdb96",
+            "id": "8529c1dc-567e-4070-6fb1-aa813ee34fb4",
             "name": "bpm",
             "version": "0.12.3"
         },
         {
-            "id": "619a1eb7-febf-4340-7ed4-dcd996b0b1ed",
+            "id": "61bfb1df-f3d3-476f-4d22-976fa518771b",
             "name": "bosh-google-cpi",
             "version": "27.0.1"
         },
         {
-            "id": "604c0719-c80b-43fc-6d86-5aea891f22f3",
+            "id": "4ecd6c7c-4a24-420e-4b27-3b9b431e54b2",
             "name": "os-conf",
             "version": "18"
         },
         {
-            "id": "67f6c398-a06e-4fad-6fd9-5b27f8a6cd33",
+            "id": "5b0b30be-8652-4782-4e6d-851968e8b9ac",
             "name": "uaa",
             "version": "60.2"
         },
         {
-            "id": "f203600c-0a62-4c9a-54ce-51f7106123ed",
+            "id": "09be084f-84e0-4ddb-699c-c8e2df51f41f",
             "name": "concourse",
             "version": "4.2.1"
         },
         {
-            "id": "11529fd4-bf4f-4d0e-748f-63a7bed2652f",
+            "id": "c5aa20a3-32b7-4960-7c97-d0bab9921066",
             "name": "credhub",
             "version": "2.0.2"
         },
         {
-            "id": "5da90686-eb92-4a16-7326-79725dd232ba",
+            "id": "73c4ae0b-efac-4f72-6a74-a81b45efa453",
             "name": "garden-runc",
             "version": "1.16.4"
         },
         {
-            "id": "36507ff7-f253-448b-701a-59d266c5639a",
+            "id": "5de9115b-9810-4fdd-443c-563fbe2f71ba",
             "name": "credhub-importer",
             "version": "1.1.0"
         },
         {
-            "id": "9e4f32dd-e948-4ef2-7a44-02434cd61704",
+            "id": "281d96e5-e844-4309-4fe3-bb72cab5236b",
             "name": "vault-credhub-proxy",
             "version": "1"
         },
         {
-            "id": "3bbfe582-4ecb-400d-4ff6-a468c993e368",
+            "id": "8e399fb8-35c2-4996-5541-632d9d4a2e14",
             "name": "postgres",
             "version": "30"
         },
         {
-            "id": "afb1fe93-a4c3-45d1-4c09-482197998d82",
+            "id": "6b9686ea-b578-44f6-6893-a20f225680b2",
             "name": "bucc-bbr",
             "version": "7"
         }
