@@ -1,0 +1,18 @@
+concourse_domain: 35.236.242.5
+concourse_lb_ip: 35.236.242.5
+concourse_target_pool: ad-training-04-concourse
+director_address: https://35.221.31.184:25555
+director_name: bosh-ad-training-04
+external_ip: 35.221.31.184
+internal_cidr: 10.0.0.0/16
+internal_gw: 10.0.0.1
+internal_ip: 10.0.0.6
+internal_tag_name: ad-training-04-internal
+jumpbox_url: 35.221.31.184:22
+network: ad-training-04-network
+subnetwork: ad-training-04-subnet
+tags:
+- ad-training-04-bosh-director
+- ad-training-04-concourse-open
+- concourse
+target_pool: ad-training-04-concourse
