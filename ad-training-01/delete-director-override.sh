@@ -1,1 +1,1 @@
-../bucc/bbl/delete-director-override.sh
+bucc/bbl/delete-director-override.sh

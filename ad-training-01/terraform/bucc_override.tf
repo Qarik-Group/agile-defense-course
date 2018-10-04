@@ -1,1 +1,1 @@
-../../bucc/bbl/terraform/gcp/bucc_override.tf
+../bucc/bbl/terraform/gcp/bucc_override.tf

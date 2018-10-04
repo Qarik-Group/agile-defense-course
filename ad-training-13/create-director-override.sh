@@ -1,1 +1,1 @@
-bucc/bbl/create-director-override.sh
+../create-director-override.sh
